@@ -1,6 +1,6 @@
 <?php
 session_start();
-$pass="9d83e8532a33345e495d8f213bf73055";
+$pass="9d83e8532a33345e495d8f213bf73055"; //admin@321#
 
 if(isset($_POST["psubmit"])){
 	$password = md5($_POST["password"]);
